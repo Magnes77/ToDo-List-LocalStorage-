@@ -1,0 +1,159 @@
+:root{
+  --bg: #f4f7fb;
+  --card: #ffffff;
+  --accent: #2b7aef;
+  --muted: #7a7a7a;
+  --danger: #e74c3c;
+  --radius: 12px;
+}
+*{box-sizing:border-box}
+html,body{
+  height:100%;
+  margin:0;
+  font-family: Inter, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg,var(--bg), #eef3fb 60%);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.wrap{
+  min-height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:32px;
+}
+
+.card{
+  width:100%;
+  max-width:720px;
+  background:var(--card);
+  border-radius:var(--radius);
+  box-shadow:0 8px 28px rgba(40,50,80,0.08);
+  padding:20px;
+}
+
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:12px;
+}
+header h1{
+  margin:0;
+  font-size:20px;
+  letter-spacing:0.2px;
+}
+.controls{
+  display:flex;
+  gap:8px;
+  align-items:center;
+}
+
+.input-wrap{
+  display:flex;
+  gap:8px;
+  margin-bottom:14px;
+}
+input[type="text"]{
+  flex:1;
+  padding:10px 12px;
+  border-radius:10px;
+  border:1px solid #e3e7ee;
+  font-size:14px;
+  outline:none;
+}
+input[type="text"]:focus{
+  box-shadow:0 0 0 4px rgba(43,122,239,0.08);
+  border-color:var(--accent);
+}
+
+button{
+  padding:10px 12px;
+  border-radius:10px;
+  border:0;
+  background:var(--accent);
+  color:white;
+  cursor:pointer;
+  font-size:14px;
+}
+button.ghost{
+  background:transparent;
+  border:1px solid #e3e7ee;
+  color:var(--muted);
+}
+button.danger{
+  background:var(--danger);
+}
+
+ul#todo-list{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+li.todo-item{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:10px 12px;
+  border-radius:10px;
+  border:1px solid #f0f3f8;
+  background:linear-gradient(180deg, #fff, #fbfdff);
+}
+.left{
+  display:flex;
+  gap:12px;
+  align-items:center;
+  flex:1;
+}
+.check{
+  width:18px;
+  height:18px;
+  border-radius:4px;
+  border:1px solid #d7def3;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  flex-shrink:0;
+}
+.check.checked{
+  background:var(--accent);
+  color:white;
+  border:0;
+}
+.text{
+  font-size:14px;
+  word-break:break-word;
+}
+.text.completed{
+  text-decoration:line-through;
+  color:var(--muted);
+}
+
+.item-actions{
+  display:flex;
+  gap:8px;
+  align-items:center;
+}
+.meta{
+  margin-top:10px;
+  font-size:13px;
+  color:var(--muted);
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+}
+
+@media (max-width:480px){
+  header h1{font-size:18px}
+  .input-wrap{flex-direction:column}
+  .controls{width:100%}
+  button{width:100%}
+}
+

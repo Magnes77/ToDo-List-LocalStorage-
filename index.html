@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ToDo List — LocalStorage</title>
+
+  <!-- Połączenie z plikiem CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrap">
+    <div class="card" role="application" aria-labelledby="app-title">
+      <header>
+        <h1 id="app-title">ToDo List (LocalStorage)</h1>
+        <div class="controls">
+          <button id="clear-completed" class="ghost" title="Remove completed tasks">Clear Completed</button>
+          <button id="clear-all" class="ghost" title="Remove all tasks">Clear All</button>
+        </div>
+      </header>
+
+      <div class="input-wrap" aria-label="Add task">
+        <input id="todo-input" type="text" placeholder="Add a task and press Enter or Add" aria-label="New task">
+        <button id="add-btn">Add</button>
+      </div>
+
+      <ul id="todo-list" aria-live="polite"></ul>
+
+      <div class="meta">
+        <div id="count">0 tasks</div>
+        <div id="hint">Click checkbox to complete. Click Delete to remove.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Połączenie z plikiem JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

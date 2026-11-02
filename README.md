@@ -1,26 +1,71 @@
-# ToDo List (LocalStorage)
+# ToDo List – LocalStorage
 
-A simple ToDo list built with HTML, CSS, and JavaScript.  
-It supports adding tasks, marking them as completed, deleting, and saving to LocalStorage.
+A simple ToDo List project made with HTML, CSS and JavaScript.
+
+I created this project to practice JavaScript and learn how to work with LocalStorage. The app allows you to add tasks, edit them, delete them and mark them as completed.
+
+## Preview
+
+<!-- Add a screenshot of your project here -->
+
+![ToDo List Preview](screenshot.png)
 
 ## Features
-- Add tasks (Enter key or Add button)
-- Mark tasks as completed (click checkbox)
+
+- Add new tasks
+- Mark tasks as completed
+- Edit tasks by double-clicking them
 - Delete individual tasks
 - Clear all completed tasks
-- Clear all tasks
-- Tasks are saved in browser LocalStorage
+- Delete all tasks
+- Save tasks in LocalStorage
+- Responsive design
 
-## Screenshots
-![Tasks list](<img width="1301" height="603" alt="Zrzut ekranu 2025-10-10 234250" src="https://github.com/user-attachments/assets/ba173eef-766c-442f-a235-1c21ae002e0f" />
-![Completed tasks](<img width="820" height="312" alt="image" src="https://github.com/user-attachments/assets/3d4441b7-7a75-4651-9921-d47e83d0847c" />
+## Technologies
 
+- HTML5
+- CSS3
+- JavaScript
+- LocalStorage
 
-## How to run
-1. Clone or download the repository.
-2. Open `index.html` in your browser.
-3. Add tasks and test the features.
+## Project Structure
 
-## Notes
-- Double-click a task to edit it.
-- Works entirely in the browser; no backend required.
+```text
+ToDo-List-LocalStorage/
+│
+├── index.html
+├── style.css
+├── script.js
+├── screenshot.png
+└── README.md
+```
+
+## How to Run
+
+1. Download or clone this repository.
+2. Open the project folder.
+3. Open `index.html` in your browser.
+4. Start adding your tasks!
+
+No additional installations are needed.
+
+## What I Learned
+
+While working on this project, I practiced:
+
+- Working with JavaScript functions
+- Handling button clicks and keyboard events
+- Creating HTML elements using JavaScript
+- Using arrays and objects
+- Saving and loading data with LocalStorage
+- Basic responsive design with CSS
+
+## About
+
+This is one of my personal projects made while learning web development in technical school.
+
+I wanted to create something simple and useful while getting more comfortable with JavaScript.
+
+---
+
+**Created by Wiktor Ciepliński**

@@ -5,10 +5,7 @@ A simple ToDo List project made with HTML, CSS and JavaScript.
 I created this project to practice JavaScript and learn how to work with LocalStorage. The app allows you to add tasks, edit them, delete them and mark them as completed.
 
 ## Preview
-
-<!-- Add a screenshot of your project here -->
-
-![ToDo List Preview](<img width="781" height="532" alt="image" src="https://github.com/user-attachments/assets/7f91266d-4cb7-466c-9d74-2a815769520a" />)
+<img width="781" height="532" alt="image" src="https://github.com/user-attachments/assets/49293aab-e395-438e-82a6-e4d88ae32d8d" />
 
 ## Features
 

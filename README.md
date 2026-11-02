@@ -8,7 +8,8 @@ I created this project to practice JavaScript and learn how to work with LocalSt
 
 <!-- Add a screenshot of your project here -->
 
-![ToDo List Preview](screenshot.png)
+![ToDo List Preview](<img width="781" height="532" alt="image" src="https://github.com/user-attachments/assets/7f91266d-4cb7-466c-9d74-2a815769520a" />
+)
 
 ## Features
 

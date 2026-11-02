@@ -37,7 +37,6 @@ ToDo-List-LocalStorage/
 ├── style.css
 ├── script.js
 ├── screenshot.png
-└── README.md
 ```
 
 ## How to Run
